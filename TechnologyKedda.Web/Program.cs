@@ -1,5 +1,12 @@
 // DI Containers or Services
+using Microsoft.EntityFrameworkCore;
+using TechnologyKedda.Web.Data;
+
 var builder = WebApplication.CreateBuilder(args);
+
+//Classname instancename=new classname
+
+builder.Services.AddDbContext<ApplicationDbContext>(options=>options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

@@ -1,3 +1,4 @@
+// DI Containers or Services
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -22,6 +23,8 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Test}/{action=ShowButton}/{id?}");
 
 app.Run();
+
+//Client----------middlewares------------------Server

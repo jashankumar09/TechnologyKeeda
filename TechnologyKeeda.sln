@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechnologyKedda.Web", "TechnologyKedda.Web\TechnologyKedda.Web.csproj", "{D682954A-AE22-4B6E-82A6-F2ABEC1D2196}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechnologyKedda.Web", "TechnologyKedda.Web\TechnologyKedda.Web.csproj", "{D682954A-AE22-4B6E-82A6-F2ABEC1D2196}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechnologyKeeda.Entities", "TechnologyKeeda.Entities\TechnologyKeeda.Entities.csproj", "{703BFC29-B26E-4A7A-860C-F48062B76EAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechnologyKeeda.Repositories", "TechnologyKeeda.Repositories\TechnologyKeeda.Repositories.csproj", "{E7947408-9A09-460A-B088-05AA797BE795}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechnologyKeeda.UI", "TechnologyKeeda.UI\TechnologyKeeda.UI.csproj", "{D44C24CC-06D8-4E6B-B6F9-5EDABA2FC1A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{D682954A-AE22-4B6E-82A6-F2ABEC1D2196}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D682954A-AE22-4B6E-82A6-F2ABEC1D2196}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D682954A-AE22-4B6E-82A6-F2ABEC1D2196}.Release|Any CPU.Build.0 = Release|Any CPU
+		{703BFC29-B26E-4A7A-860C-F48062B76EAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{703BFC29-B26E-4A7A-860C-F48062B76EAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{703BFC29-B26E-4A7A-860C-F48062B76EAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{703BFC29-B26E-4A7A-860C-F48062B76EAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7947408-9A09-460A-B088-05AA797BE795}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7947408-9A09-460A-B088-05AA797BE795}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7947408-9A09-460A-B088-05AA797BE795}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7947408-9A09-460A-B088-05AA797BE795}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D44C24CC-06D8-4E6B-B6F9-5EDABA2FC1A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D44C24CC-06D8-4E6B-B6F9-5EDABA2FC1A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D44C24CC-06D8-4E6B-B6F9-5EDABA2FC1A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D44C24CC-06D8-4E6B-B6F9-5EDABA2FC1A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
